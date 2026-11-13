@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         String strNum1 = number1.getText().toString().trim();
         if (strNum1.isEmpty()) {
-            Toast.makeText(this, "Введите первое число", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Введите первое число.", Toast.LENGTH_SHORT).show();
             return;
         }
 
